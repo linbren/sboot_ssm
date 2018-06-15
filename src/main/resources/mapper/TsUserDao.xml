@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="net.business.system.dao.TsUserDao">
+  <resultMap id="BaseResultMap" type="net.business.system.entity.TsUser">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="INTEGER" property="id" />
+    <result column="APP_ID" jdbcType="VARCHAR" property="appId" />
+    <result column="ORG_ID" jdbcType="VARCHAR" property="orgId" />
+    <result column="USER_CODE" jdbcType="VARCHAR" property="userCode" />
+    <result column="USER_NAME" jdbcType="VARCHAR" property="userName" />
+    <result column="USER_PASS" jdbcType="VARCHAR" property="userPass" />
+    <result column="USER_PHOTO" jdbcType="VARCHAR" property="userPhoto" />
+    <result column="ID_NUMBER" jdbcType="VARCHAR" property="idNumber" />
+    <result column="SEX" jdbcType="VARCHAR" property="sex" />
+    <result column="USER_EMAIL" jdbcType="VARCHAR" property="userEmail" />
+    <result column="TELPHONE" jdbcType="VARCHAR" property="telphone" />
+    <result column="ADDRESS" jdbcType="VARCHAR" property="address" />
+    <result column="BIRTH_DATE" jdbcType="VARCHAR" property="birthDate" />
+    <result column="SORT_CODE" jdbcType="INTEGER" property="sortCode" />
+    <result column="STATUS" jdbcType="VARCHAR" property="status" />
+    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="SECRET_KEY" jdbcType="VARCHAR" property="secretKey" />
+    <result column="ACCESS_TOKEN" jdbcType="VARCHAR" property="accessToken" />
+    <result column="EXPIRE_TIME" jdbcType="TIMESTAMP" property="expireTime" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    ID, APP_ID, ORG_ID, USER_CODE, USER_NAME, USER_PASS, USER_PHOTO, ID_NUMBER, SEX, 
+    USER_EMAIL, TELPHONE, ADDRESS, BIRTH_DATE, SORT_CODE, STATUS, CREATE_TIME, SECRET_KEY, 
+    ACCESS_TOKEN, EXPIRE_TIME, REMARK
+  </sql>
+</mapper>

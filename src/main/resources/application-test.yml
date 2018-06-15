@@ -1,0 +1,15 @@
+server:
+  port: 8080
+#spring.datasource.driver-class-name=com.mysql.jdbc.Driver
+#spring.datasource.url=jdbc:mysql://localhost:3306/frm
+#spring.datasource.username=root
+#spring.datasource.password=root
+#
+#
+#my.name = forezp
+#my.age = 12
+#my.number =  ${random.int}
+#my.uuid = ${random.uuid}
+#my.max = ${random.int(10)}
+#my.value = ${random.value}
+#my.greeting = hi,i'm  ${my.name}
