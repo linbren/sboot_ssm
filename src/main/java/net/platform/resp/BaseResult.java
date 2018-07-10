@@ -12,11 +12,11 @@ public class BaseResult implements Serializable{
 	/**
      * 提示编码
      */
-    private int ret = RetMsg.API_SUCCESS;
+    private int ret = RetMsg.API_SUCCESS.getRet();
     /**
      * 提示信息
      */
-    private String msg = RetMsg.retMsg.get(RetMsg.API_SUCCESS);
+    private String msg = RetMsg.API_SUCCESS.getMsg();
 	/**
      * 信息主体
      */

@@ -19,4 +19,8 @@ public class ConfigControl {
     public String readConfig(){
         return configBean.getGreeting()+" >>>>"+configBean.getName()+" >>>>"+ configBean.getUuid()+" >>>>"+configBean.getMax();
     }
+    @RequestMapping(value = "/ma")
+    public ConfigBean readConfigAll(){
+        return configBean;
+    }
 }
